@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap");
+
+:root {
+  --netflix_red: #e50914;
+  --netflix_grey: #a3a3a3;
+  --netflix_white: #ffffff;
+  --netflix_bg: #181818;
+  font-family: "Open Sans", sans-serif;
+}
+
+.episode {
+  width: 20em;
+  display: grid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+}
+
+.episode img {
+  width: 20em;
+  border-radius: 5px;
+}
+
+.ep-duration {
+  margin-top: 5px;
+  display: block;
+  width: auto;
+}
+
+.ep-no {
+  color: var(--netflix_grey);
+  float: left;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.duration {
+  color: var(--netflix_grey);
+  float: right;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.ep-text {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+.ep-title {
+  color: var(--netflix_white);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.ep-desc {
+  color: var(--netflix_grey);
+  font-size: 14px;
+  font-weight: 400;
+}
