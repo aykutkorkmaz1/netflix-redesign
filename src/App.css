@@ -53,9 +53,11 @@ body {
 /* SHOWCASE */
 
 .showcase {
-  margin-top: 5em;
-  width: 100%;
+  margin: 5em auto 5px auto;
+  width: 90%;
   height: 60vh;
+  border-radius: 5px;
+  border: 1px solid var(--netflix_red);
   background-image: url(./img/banner.jpeg);
   background-repeat: no-repeat;
   background-position: center;
@@ -124,7 +126,6 @@ body {
   background-color: var(--netflix_red);
   text-align: center;
   display: grid;
-  margin-left: 10px;
   margin-right: 10px;
 
   border-radius: 5px;
@@ -150,9 +151,8 @@ body {
 /* VIDEOS suddenly includes some EPISODES stylizing */
 
 .videos {
-  margin-top: 30px;
-  margin-left: 60px;
-  width: auto;
+  margin: 30px auto 5px auto;
+  width: 90%;
 }
 
 .header {
@@ -175,9 +175,8 @@ body {
 }
 
 .episodes {
-  width: auto;
-  margin-top: 30px;
-  margin-left: 60px;
+  width: 90%;
+  margin: 30px auto 5px auto;
 }
 
 .ep-area {
