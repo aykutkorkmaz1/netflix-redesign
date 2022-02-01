@@ -21,6 +21,29 @@
   border-radius: 5px;
 }
 
+.play {
+  margin-top: 5px;
+  font-size: 13px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: var(--netflix_white);
+  background-color: var(--netflix_bg);
+  border: 1px solid var(--netflix_grey);
+  border-radius: 2px;
+  text-align: center;
+
+  transition: 0.3s;
+}
+
+.play:hover {
+  background-color: var(--netflix_red);
+  color: var(--netflix_white);
+  border-radius: 5px;
+  border: 1px solid var(--netflix_red);
+
+  transition: 0.3s;
+}
+
 .video span {
   color: var(--netflix_white);
   font-size: 16px;

@@ -12,6 +12,7 @@ import ep3 from '../src/img/ep3.jpeg';
 import Video from './components/Video.js';
 import Episode from './components/Episode.js';
 import MoreLike from './components/MoreLike';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -101,6 +102,7 @@ function App() {
       </div>
 
       <MoreLike />
+      <Footer />
 
     </div>
   );

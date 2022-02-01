@@ -18,6 +18,7 @@ export default function Episode (props) {
                 <span className='ep-title'>{props.title}</span>
                 <span className='ep-desc'>{props.desc}</span>
               </div>
+              <div className="play">Play</div>
         </div>
     );
 }

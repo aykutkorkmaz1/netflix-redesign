@@ -6,6 +6,7 @@ export default function Video (props) {
         <div className='video'>
               <img src={props.video}></img>
               <span>{props.vid_title}</span>
+              <div className="play">Play</div>
         </div>
     );
 }
