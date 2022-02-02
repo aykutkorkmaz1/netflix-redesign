@@ -25,4 +25,15 @@
   border-radius: 5px;
   margin-right: 7px;
   margin-bottom: 7px;
+  border: 2px solid transparent;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.image:hover {
+  border: 2px solid var(--netflix_red);
+
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
 }

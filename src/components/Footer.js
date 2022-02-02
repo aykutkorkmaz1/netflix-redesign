@@ -7,8 +7,8 @@ export default function Footer () {
     return (
         <div className="footer">
             <div className="section-1">
-                <span className="text call">Questions? Call +1 (866) 579-7172</span>
                 <span><img src={nlogo}></img></span>
+                <span className="text call">Questions? Call +1 (866) 579-7172</span>
                 <span className="text country">Netflix United States</span>
             </div>
             <div className="section-2">

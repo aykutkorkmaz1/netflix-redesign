@@ -9,9 +9,12 @@
 }
 
 .footer {
-  width: 70%;
-  margin: 0 auto;
+  width: 90%;
+  margin: auto auto;
   padding: 60px 0 60px 0;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .text {
@@ -29,28 +32,29 @@
 }
 
 .section-1 {
-  width: 90%;
-  text-align: center;
-  margin: 0 auto;
+  width: 50%;
+  margin: auto auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .section-1 img {
   width: 7em;
+  padding: 4px;
 }
 
 .section-2 {
   display: flex;
   flex-wrap: wrap;
-  width: 70%;
-  margin-top: 30px;
+  justify-content: space-around;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .section-2 div {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   padding-top: 10px;
-  margin-right: 50px;
 }
 
 .section-2 span {
