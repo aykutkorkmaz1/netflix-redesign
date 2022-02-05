@@ -117,5 +117,6 @@
 
   .section-2 span {
     display: flex;
+    text-align: left;
   }
 }
