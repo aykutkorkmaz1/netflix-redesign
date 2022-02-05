@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap");
+
+body {
+  background-color: var(--netflix_bg);
+}
+
+:root {
+  --netflix_red: #e50914;
+  --netflix_grey: #a3a3a3;
+  --netflix_white: #ffffff;
+  --netflix_bg: #181818;
+  --mobile-max-width: 400px;
+  font-family: "Open Sans", sans-serif;
+}
+
+@media (max-width: 400px) {
+  .navbar {
+    background-color: #000;
+    opacity: 90%;
+    max-width: 400px;
+    position: fixed;
+    top: 0;
+    backdrop-filter: blur(2px);
+    position: relative;
+
+    z-index: 1;
+  }
+
+  .logo-navbar {
+    width: 7em;
+    margin: 10px auto;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  /* SHOWCASE */
+
+  .showcase {
+    margin-top: -5px;
+    width: 100%;
+    height: 50vh;
+    border: none;
+    background-image: url(./img/banner.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+
+  .media-main {
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    max-width: 400px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .media-logo {
+    width: 9cm;
+  }
+
+  .tags-area {
+    margin-top: 10px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .tag {
+    width: fit-content;
+    padding: 3px 6px 3px 6px;
+    margin: 0px 3px 5px 3px;
+    color: var(--netflix_grey);
+    font-size: 12px;
+    font-weight: 600;
+
+    border: 1px solid var(--netflix_grey);
+    border-radius: 3px;
+  }
+
+  .info {
+    width: 350px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    color: var(--netflix_white);
+  }
+
+  .media-name {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .media-desc {
+    margin-top: 7px;
+    width: auto;
+    font-size: 15px;
+  }
+
+  .media-button-group {
+    margin-top: 20px;
+    display: flex;
+  }
+
+  .button-media {
+    width: 8em;
+    height: 2em;
+    background-color: var(--netflix_red);
+    color: var(--netflix_white);
+    text-align: center;
+    display: grid;
+    margin-right: 10px;
+
+    border-radius: 5px;
+
+    transition: ease-in-out 0.4s;
+  }
+
+  .media-button-group span {
+    font-size: 15px;
+    align-self: center;
+  }
+
+  .cast {
+    margin-top: 3px;
+    color: var(--netflix_grey);
+    font-size: 14px;
+  }
+
+  .cast span {
+    color: var(--netflix_white);
+    font-weight: 500;
+  }
+
+  /* VIDEOS suddenly includes some EPISODES stylizing */
+
+  .videos {
+    width: 17em;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+
+  .header {
+    font-size: 20px;
+    color: var(--netflix_white);
+    font-weight: 700;
+  }
+
+  .sub-header {
+    font-size: 15px;
+    color: var(--netflix_grey);
+    font-weight: 600;
+  }
+
+  .vid-area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px auto 0px auto;
+  }
+
+  .episodes {
+    width: 17em;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+
+  .ep-area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px auto 0px auto;
+  }
+}

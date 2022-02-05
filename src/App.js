@@ -1,4 +1,5 @@
 import './App.css';
+import './Responsive.css';
 
 import logo from '../src/img/nlogo.svg';
 import media_logo from '../src/img/logo.png';

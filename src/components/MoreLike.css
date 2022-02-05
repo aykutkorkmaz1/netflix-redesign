@@ -21,7 +21,7 @@
 }
 
 .image {
-  width: 20em;
+  width: 17em;
   border-radius: 5px;
   margin-right: 7px;
   margin-bottom: 7px;
@@ -36,4 +36,36 @@
 
   transition: ease-in-out 0.3s;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 400px) {
+  .morelikethis {
+    width: 17em;
+    margin: 20px auto;
+  }
+
+  .section-grid {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .image {
+    width: 17em;
+    border-radius: 5px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    border: 2px solid transparent;
+    cursor: pointer;
+
+    transition: 0.3s;
+  }
+
+  .image:hover {
+    border: 2px solid var(--netflix_red);
+
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+  }
 }

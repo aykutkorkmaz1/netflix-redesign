@@ -60,3 +60,62 @@
 .section-2 span {
   display: flex;
 }
+
+@media only screen and (max-width: 400px) {
+  .footer {
+    max-width: 400px;
+    margin: auto auto;
+    padding: 60px 0 60px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .text {
+    color: var(--netflix_grey);
+    font-size: 14px;
+    padding: 4px;
+  }
+
+  .call {
+    float: left;
+  }
+
+  .country {
+    float: right;
+  }
+
+  .section-1 {
+    width: 100%;
+    margin: auto auto;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-1 img {
+    width: 7em;
+    padding: 4px;
+  }
+
+  .section-2 {
+    display: grid;
+    grid-template-columns: 14ch auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .section-2 div {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+
+  .section-2 span {
+    display: flex;
+  }
+}

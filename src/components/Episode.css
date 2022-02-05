@@ -82,3 +82,77 @@
 
   transition: 0.3s;
 }
+
+@media only screen and (max-width: 400px) {
+  .episode {
+    width: 17em;
+    display: grid;
+  }
+
+  .episode img {
+    width: 17em;
+    border-radius: 5px;
+  }
+
+  .ep-duration {
+    margin-top: 5px;
+    display: block;
+    width: auto;
+  }
+
+  .ep-no {
+    color: var(--netflix_grey);
+    float: left;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .duration {
+    color: var(--netflix_grey);
+    float: right;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .ep-text {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+
+  .ep-title {
+    color: var(--netflix_white);
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .ep-desc {
+    color: var(--netflix_grey);
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .play {
+    margin-top: 5px;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: var(--netflix_white);
+    background-color: var(--netflix_bg);
+    border: 1px solid var(--netflix_grey);
+    border-radius: 2px;
+    text-align: center;
+
+    transition: 0.3s;
+  }
+
+  .play:hover {
+    background-color: var(--netflix_red);
+    color: var(--netflix_white);
+    border-radius: 5px;
+    border: 1px solid var(--netflix_red);
+
+    transition: 0.3s;
+  }
+}
