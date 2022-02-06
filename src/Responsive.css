@@ -95,7 +95,7 @@ body {
 
   .media-desc {
     margin-top: 7px;
-    width: auto;
+    max-width: 80%;
     font-size: 15px;
   }
 
