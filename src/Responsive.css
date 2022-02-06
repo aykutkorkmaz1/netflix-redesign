@@ -2,6 +2,7 @@
 
 body {
   background-color: var(--netflix_bg);
+  position: relative;
 }
 
 :root {
@@ -15,13 +16,12 @@ body {
 
 @media (max-width: 400px) {
   .navbar {
+    position: fixed;
+    top: 0;
     background-color: #000;
     opacity: 90%;
     max-width: 400px;
-    position: fixed;
-    top: 0;
     backdrop-filter: blur(2px);
-    position: relative;
 
     z-index: 1;
   }
@@ -38,7 +38,7 @@ body {
   /* SHOWCASE */
 
   .showcase {
-    margin-top: -5px;
+    margin-top: 30px;
     width: 100%;
     height: 30em;
     border: none;
